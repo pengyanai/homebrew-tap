@@ -1,26 +1,26 @@
 class Openbluecode < Formula
   desc "Expose BlueCode-authenticated models to Claude Code and Claude Desktop 3p"
   homepage "https://github.com/pengyanai/homebrew-tap"
-  version "0.2.8"
+  version "0.2.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.8/openbluecode_v0.2.8_darwin_arm64.tar.gz"
-      sha256 "3970c07a7f2bf46b2ee351a412601c48d2934cc3fd701b7d773f55fb5531b731"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.9/openbluecode_v0.2.9_darwin_arm64.tar.gz"
+      sha256 "41ec8460131e29de4baa2aa2e791d1aea99fd0da5c5d6ce6bfb08e979cd1ef88"
     else
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.8/openbluecode_v0.2.8_darwin_amd64.tar.gz"
-      sha256 "2279800de7993884c2fb4f2305e23f22d567ef95fa93a8e1c9b91426a8918237"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.9/openbluecode_v0.2.9_darwin_amd64.tar.gz"
+      sha256 "1b90d4104b2f547e00ddd10f79acdb86f96a72e7f206403d8e14fde60dc0ba96"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.8/openbluecode_v0.2.8_linux_arm64.tar.gz"
-      sha256 "c3de158eec8c2fabc946174cca49ad14e60da05aa0b1c10c6835e2c123d11293"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.9/openbluecode_v0.2.9_linux_arm64.tar.gz"
+      sha256 "216a97edd936026dc4e786bec77bd2ec1cb8676d8c921432f78265600e92aa8d"
     else
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.8/openbluecode_v0.2.8_linux_amd64.tar.gz"
-      sha256 "cb651cee92c62d9330b6d9609c7fa80a20766bea2edf1070966e85bdbd04a981"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.9/openbluecode_v0.2.9_linux_amd64.tar.gz"
+      sha256 "f366d310e8e6689c39a8e7b7c314eb1d052f09f1ce9ba66a6e8d7287ef5895b6"
     end
   end
 
