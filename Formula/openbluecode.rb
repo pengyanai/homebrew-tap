@@ -1,26 +1,26 @@
 class Openbluecode < Formula
   desc "Expose BlueCode-authenticated models to Claude Code and Claude Desktop 3p"
   homepage "https://github.com/pengyanai/homebrew-tap"
-  version "0.2.6"
+  version "0.2.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.6/openbluecode_v0.2.6_darwin_arm64.tar.gz"
-      sha256 "07a925dacff1d8a86ec088a14693ce104d459d4aa7614339b116a43b37389a7a"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.7/openbluecode_v0.2.7_darwin_arm64.tar.gz"
+      sha256 "2582190aa709f75e2487554125d3e192a9c60c4fb5c8c23ccc2c1c5f599080f7"
     else
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.6/openbluecode_v0.2.6_darwin_amd64.tar.gz"
-      sha256 "4ddd76e5067366838d602df6767b35b5d0d53e32465ccaf65a6838fe7edc1de5"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.7/openbluecode_v0.2.7_darwin_amd64.tar.gz"
+      sha256 "9dfb9b91bc1a2b0106d4d37236f64cff97868c828e0fde39f2db2547ecba2024"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.6/openbluecode_v0.2.6_linux_arm64.tar.gz"
-      sha256 "d7e59e0958a92ae16676e2cafc7d9d264535741343c6883251fb3985b5f3bd12"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.7/openbluecode_v0.2.7_linux_arm64.tar.gz"
+      sha256 "11a5176c2e5c20c3f686c07cda0ba7208d5ece125c2f9eb2b8b722fe4ac02185"
     else
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.6/openbluecode_v0.2.6_linux_amd64.tar.gz"
-      sha256 "0f082e3ab1395fd4a00b126fa72ddc3fd34082bb34cf6c069f0b8f0eeae68e4f"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.7/openbluecode_v0.2.7_linux_amd64.tar.gz"
+      sha256 "1a94342e4d36e40ea56f6141cf78237f9b12d6056bc0b41a0252544464677fdf"
     end
   end
 
