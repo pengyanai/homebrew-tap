@@ -1,26 +1,26 @@
 class Openbluecode < Formula
   desc "Expose BlueCode-authenticated models to Claude Code and Claude Desktop 3p"
   homepage "https://github.com/pengyanai/homebrew-tap"
-  version "0.2.2"
+  version "0.2.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.2/openbluecode_v0.2.2_darwin_arm64.tar.gz"
-      sha256 "5e2b79e3574af2367e5549cf111ef1221a64f8ab7d96e061af426440cb7dfb32"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.5/openbluecode_v0.2.5_darwin_arm64.tar.gz"
+      sha256 "15e0246fb3ab13e2c0c695c84d609935d550b91f919f239a3233db1b95b2a153"
     else
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.2/openbluecode_v0.2.2_darwin_amd64.tar.gz"
-      sha256 "0c58cc119dc11b08d653d8de72f8c09d4a5ec864d5c3cb965a642668fbdc12c2"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.5/openbluecode_v0.2.5_darwin_amd64.tar.gz"
+      sha256 "c4caf98cc73c45c4363435ee0acf1c36df824eac7a0d24951a3d7027e12f7844"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.2/openbluecode_v0.2.2_linux_arm64.tar.gz"
-      sha256 "da4eeaa0e6a9115c3d629e1155901fd04dc511b78587c4144aa3cd4d5081f384"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.5/openbluecode_v0.2.5_linux_arm64.tar.gz"
+      sha256 "1ff96408068af551b6f45ea21a1b780ff399f90cd1e567aa701e13c97895044f"
     else
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.2/openbluecode_v0.2.2_linux_amd64.tar.gz"
-      sha256 "7105bf6964b546c79bb948522071fb88f9f97cecde7c5b9038ebfcf797049151"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.5/openbluecode_v0.2.5_linux_amd64.tar.gz"
+      sha256 "192ce874e8f14f26df1e1d4319deec62051ca567accd2713c1c63a15c538495a"
     end
   end
 
