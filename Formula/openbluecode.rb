@@ -1,26 +1,26 @@
 class Openbluecode < Formula
   desc "Expose BlueCode-authenticated models to Claude Code and Claude Desktop 3p"
   homepage "https://github.com/pengyanai/homebrew-tap"
-  version "0.2.0"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.0/openbluecode_v0.2.0_darwin_arm64.tar.gz"
-      sha256 "df14b709097e2abe4384c4cc6643924de7ec2a8b8964dad62284804817489540"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.2/openbluecode_v0.2.2_darwin_arm64.tar.gz"
+      sha256 "5e2b79e3574af2367e5549cf111ef1221a64f8ab7d96e061af426440cb7dfb32"
     else
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.0/openbluecode_v0.2.0_darwin_amd64.tar.gz"
-      sha256 "d1ff3a0cc40d7b79caaa8fe8818959264a576ff68b0cf1d1772990cd68d3566d"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.2/openbluecode_v0.2.2_darwin_amd64.tar.gz"
+      sha256 "0c58cc119dc11b08d653d8de72f8c09d4a5ec864d5c3cb965a642668fbdc12c2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.0/openbluecode_v0.2.0_linux_arm64.tar.gz"
-      sha256 "ee35ac9a43cc23bd16ff390900a5d147b78e69264491bc2bf459920b8b852eab"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.2/openbluecode_v0.2.2_linux_arm64.tar.gz"
+      sha256 "da4eeaa0e6a9115c3d629e1155901fd04dc511b78587c4144aa3cd4d5081f384"
     else
-      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.0/openbluecode_v0.2.0_linux_amd64.tar.gz"
-      sha256 "ec89f8472c9d65876b4f5a6b8992aee6d2a7f6000e47bed503fee0d565b5bbad"
+      url "https://github.com/pengyanai/homebrew-tap/releases/download/openbluecode-0.2.2/openbluecode_v0.2.2_linux_amd64.tar.gz"
+      sha256 "7105bf6964b546c79bb948522071fb88f9f97cecde7c5b9038ebfcf797049151"
     end
   end
 
